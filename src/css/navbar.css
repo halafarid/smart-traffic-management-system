@@ -1,0 +1,112 @@
+.highNav .navbar-expand-lg {
+    background-image: url('../images/backgroundd.jpg');
+}
+
+.highNav .navbar-expand-lg .navbar-nav {
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 3px;
+}
+.highNav .navbar-expand-lg .navbar-nav a {
+    color: #fff;
+}
+.highNav .navbar-expand-lg span {
+    color: #fff;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.highNav .navbar-expand-lg i {
+    color: #de2222;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/******************************************************/
+.navigationBar, 
+.navigationIcon {
+    margin-top: 68px;
+    z-index: 100000;
+}
+.navigationBar .nav, 
+.navigationIcon .nav {
+    border-right: 1px solid #ccc;
+    box-shadow: 5px 5px 10px #a3a3a3;
+    background-image: url('../images/backgroundd.jpg');
+    background-size: cover;
+}
+
+.navigationIcon {
+    width: 60px;
+}
+
+.navigationBar .nav-pills .nav-link {
+    border-radius: 0px;
+}
+
+.navigationBar .fa { margin-right: 25px; }
+
+.navigationBar .nav-pills .nav-link, .nav-pills .show > .nav-link,
+.navigationIcon .nav-pills .nav-link, .nav-pills .show > .nav-link {
+    color: #aaa;
+    font-size: 18px;
+    padding: 23px 20px;
+}
+.navigationBar .user .nav-link,
+.navigationIcon .user .nav-link {
+    padding-top: 37px;
+    padding-bottom: 37px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.navigationBar .nav-pills .nav-link.active, .nav-pills .show > .nav-link,
+.navigationBar .nav-pills .nav-link:hover, .nav-pills .show > .nav-link,
+.navigationIcon .nav-pills .nav-link.active, .nav-pills .show > .nav-link,
+.navigationIcon .nav-pills .nav-link:hover, .nav-pills .show > .nav-link {
+    background-color: #0072A7;
+    color: #fff;
+}
+
+.dropdown-divider {
+    margin: 0px;
+    width: 100%;
+}
+
+.navigationBar .nav-pills .nav-link.active .fa,
+.navigationBar .nav-pills .nav-link:hover .fa,
+.navigationIcon .nav-pills .nav-link.active, .nav-pills .show > .nav-link,
+.navigationIcon .nav-pills .nav-link:hover, .nav-pills .show > .nav-link,
+.navigationIcon .nav-pills .nav-link.active .fa,
+.navigationIcon .nav-pills .nav-link:hover .fa {
+    /* background-color: #eee0c5; */
+    color: #fff;
+}
+
+.navigationIcon .nav-pills .nav-link.active, .nav-pills .show > .nav-link{    
+    width: 100%;
+}
+
+/******************************************************/
+
+.hideShow {
+    position: fixed;
+    top: 15px;
+    left: 5px;
+    z-index: 10000;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+}
+.hideShow:focus, .hideShow:hover {
+    outline: 0;
+}
+
+.hideShow .fa {
+    font-size: 25px;
+    color: #fff;
+}

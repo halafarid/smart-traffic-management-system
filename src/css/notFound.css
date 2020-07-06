@@ -1,0 +1,55 @@
+.notFound {
+    padding-top: 190px;
+}
+
+.notSearch,
+.notResult {
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 25%;
+}
+.notSearch {margin-left: 0px;}
+
+.notResult {
+    margin-top: 130px;
+    margin-left: 0px;
+}
+
+.notFound img { width: 100%; }
+.notSearch img { width: 25%; }
+.notResult img { width: 25%; }
+
+.notFound h1,
+.notResult h1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #e02500;
+}
+.notSearch h1,
+.notResult h1 {
+    color: #032e7c;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.notFound hr {
+    border: 3px solid #e02500;
+    width: 70%;
+    margin-left: 60px;
+}
+
+.notFound p,
+.notSearch p,
+.notResult p {
+    font-size: 22px;
+    text-align: center;
+    color: #555;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+
+
+

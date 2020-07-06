@@ -1,0 +1,175 @@
+/******************************************************
+                    GLOBAL     
+******************************************************/
+.showHidePage{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:68px;
+    left: 58px;
+    /* left: 168px; */
+    width:100%;
+    z-index:10000;
+}
+.showHidePage .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.showHidePage div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 75%;
+    position: relative;
+    /* right: 75px; */
+    right: 0px;
+    bottom: 35px;
+}
+.closeBtn {
+    background-color: #fff;
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+}
+.closeBtn:hover {
+    background-color: #ccc;
+}
+
+/******************************************************
+                    USER DETAILS 
+                    CAR DETAILS
+******************************************************/
+/* .formDetails .showImg {
+    margin-top: 55px;
+} */
+.formDetails .showDetails {
+    display: inline;
+}
+/* .formDetails .showForm span {
+    color: #0777f1;
+} */
+.formDetails .changePass:hover,
+.formDetails .changePass:focus
+/* .formDetails .showDetails span:hover,
+.formDetails .showDetails span:focus */
+{
+    color: #1691ca;
+    cursor: pointer;
+}
+
+/* .formDetails .showDetails span:hover,
+.formDetails .showDetails span:focus {
+    text-decoration: underline;
+} */
+
+.userData .showImg .showHideImg div {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cars .showHidePage div {
+    position: inherit;
+    /* right: 40px; */
+    right: 5px;
+    top: 65px;
+}
+.showForm .showHidePage div {
+    /* right: 40px; */
+    right: 5px;
+    bottom: 10px;
+}
+/******************************************************
+                    EDIT USER     
+******************************************************/
+.userData .showHidePage,
+.infractions .showHidePage {cursor: auto;}
+
+.userData .showHidePage div,
+.stolenTable .showHidePage div,
+.infractions .showHidePage div {
+    background-color: #fff;
+    width: 60%;
+}
+.formDetails .myForm {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+.userData .showHidePage .myForm input,
+.infractions .showHidePage .myForm input {
+    display: inline;
+    width: auto;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #0e74bf;
+}
+
+.infractions .showHidePage .myForm input {
+    width: 100px;
+    text-align: center;
+}
+
+.userData .showHidePage .myForm label,
+.infractions .showHidePage .myForm label {
+    width: auto;
+    margin-right: 10px;
+}
+.userData .showHidePage .myForm:first-of-type,
+.stolenTable .showHidePage .myForm,
+.infractions .showHidePage .myForm {
+    margin-top: 60px;
+}
+
+.userData .showHidePage p {
+    margin: 0px;
+    margin-left: 5px;
+}
+.userData .showHidePage button,
+.infractions .showHidePage button {
+    display: block;
+    margin: 10px auto;
+    margin-top: 10px;
+    padding: 10px 0px;
+    width: 150px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/******************************************************
+                    SEARCH FOR USER
+                    SEARCH FOR CAR    
+******************************************************/
+.top .showHideElement {
+    display: inline-block;
+}
+.top .showHideElement .element span {
+    color: #0a6905;
+    font-size: 18px;
+}
+.top .showHideElement .element .not { color: #ad260c;}
+.top .showHideElement .element span a {
+    color: #0a4abe;
+    margin-left: 20px;
+    font-weight: bold
+}
+.top .showHideElement .element span a:hover {
+    color: #0e74bf;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/******************************************************
+                    TRAFFIC DETAILS    
+******************************************************/
+.trafficDataPage .form-group {
+    padding: 10px 0px 15px;
+}

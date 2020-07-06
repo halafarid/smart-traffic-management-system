@@ -1,0 +1,17 @@
+.errorMsg {
+    color: #f00;
+    text-align: right;
+    margin-right: 25%;
+    font-size: 15px;
+}
+
+.infractions .errorMsg { margin-right: 0px;}
+.types .errorMsg {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.error{
+    background-color: #ffefef;
+    border: 1px solid #b00
+}

@@ -1,0 +1,94 @@
+
+/******************************************************
+                    NEW USER    
+                    NEW STOLEN CAR 
+******************************************************/
+.top {
+    margin-bottom: 20px;
+}
+
+.top .newUser,
+.top .newStolen,
+.top .infractionsBtn,
+.top .form-row button {
+    float: right;
+    padding: 8px 25px;
+    /* background-color: #1074a2; */
+    margin-left: 10px;
+    border: none;
+    box-shadow: none !important;
+    outline: none !important;
+    margin-bottom: 20px;
+}
+
+/* .top .newUser:hover, 
+.top .newUser:active:focus{
+    background-color: #1691ca;
+} */
+.types .top {
+    border: 2px dashed #0072A7;
+    padding: 15px 15px 5px;
+    border-radius: 15px;
+}
+
+/******************************************************
+                    SEARCH FOR USER
+                    SEARCH FOR CAR    
+******************************************************/
+.top .search {
+    display: inline-flex;
+}
+.top .search .input-group input:focus, 
+.top .search button:focus {
+    outline: 0 !important;
+    box-shadow: none  !important;
+}
+
+.top .search .input-group span { color: #1074a2}
+.top .search .input-group input {
+    border-radius: 0px;
+    color: #0e74bf;
+}
+
+.top .search button {
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #1074a2; 
+    border: 1px solid #1074a2;
+}
+.top .search button:hover,
+.top .search button:active:focus {
+    background-color: #1691ca;
+    border: 1px solid #1691ca;
+}
+
+
+/******************************************************
+                    INFRACTION NEW BUTTON
+                    COMPLAIN NEW BUTTON     
+******************************************************/
+.infractions .newInfraction,
+.complains .newComplain {
+    padding: 10px 50px;
+    background-color: #0a4abe;
+    margin: 0px auto 30px;
+    display: block;
+}
+
+.infractions .newInfraction:hover, 
+.infractions .newInfraction:focus,
+.complains .newComplain:hover,
+.complains .newComplain:focus {
+    background-color: #0e74bf;
+}
+
+.infractions a, .complains a {
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .top .search {width: 75%;}
+}

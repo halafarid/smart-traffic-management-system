@@ -1,0 +1,18 @@
+
+.myPagination .page-link {
+    border: 1px solid #0a4abe;
+    padding: 10px 15px;
+    box-shadow: none;
+    outline: none;
+}
+
+.myPagination .page-link:hover {
+    background-color: #fffaf0;
+    cursor: pointer;
+}
+
+.myPagination .page-item.active .page-link {
+    background-color: #0a4abe;
+    border: 1px solid #0a4abe;
+    color: #fffaf0;
+}

@@ -1,0 +1,69 @@
+/******************************************************
+                    GLOBAL     
+******************************************************/
+.showTable {
+    background-color: #fff;
+    border: 4px solid #0072A7;
+    box-shadow: 5px 5px 10px #a3a3a3;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #fffaf0;
+    color: #0e74bf;
+}
+
+.showTable thead {border: 4px solid #0072A7;}
+
+.showTable th {
+    color: #fff;
+    background-color: #0072A7;
+    border-top: 2px solid #0072A7;
+    border-right: 4px solid #0072A7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.showTable td {
+    border-top: 2px solid #0072A7;
+    border-left: 2px solid #0072A7;
+    line-height: 2;
+}
+
+.showTable a {text-decoration: none;}
+
+.showTable td .fa {
+    color: #06bf06;
+    font-size: 30px;
+    cursor: text;
+}
+.showTable td .invalid {color: #ec0f0f; }
+.showTable td .returnCar {
+    color: #0072A7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/******************************************************
+                MEDIA QUERY     
+******************************************************/
+@media (max-width: 991.98px) {
+    .showTable .hideBD {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .showTable .hideCol {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .cars, .users, .traffic, .stolenCars {
+        margin-left: 40px;
+    }
+
+    .showTable .hidePhone,
+    .showTable .hideStolen {
+        display: none;
+    }
+ }

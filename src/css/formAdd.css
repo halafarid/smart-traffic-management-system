@@ -1,0 +1,214 @@
+.formAdd {
+    /* background-color: #0072A7; */
+    /* background-image: url('../images/backgroundd.jpg'); */
+    background-size: cover;
+    /* border: 1px solid #aaa; */
+    border: 2px dashed #0072A7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #ccc;
+    margin-bottom: 10px;
+}
+
+.formAdd .content { padding: 10px 0px 20px; }
+/* .formAdd .content { padding: 30px 40px 40px; } */
+
+.formAdd .content fieldset {
+    /* border: 2px solid #0072A7; */
+    border: 2px solid #b9b9b9;
+    box-shadow: 10px 10px 20px #c9c9c9;
+    border-radius: 10px;
+    width: 95%;
+    /* width: 90%; */
+    margin: 0px auto 20px;
+    padding: 0px 30px 20px 4%;
+    /* background-image: url("../images/container.png"); */
+    background-size: cover;
+    background-color: #f9f8f8;
+}
+.formAdd .content fieldset legend {
+    padding-bottom: 35px;
+    /* color: #fff; */
+    color: #0072A7;
+}
+
+.formAdd .form-group { margin-bottom: 10px; }
+
+.formAdd .form-group label {
+    width: 45%;
+    color: #0c5387;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+}
+
+.formAdd .form-group input,
+.formAdd .form-group select,
+.types .form-row input {
+    display: inline;
+    width: 50%;
+    border-radius: 15px;
+    color: #0e74bf;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.types .form-row input { width: 100%;}
+
+
+.formAdd .form-group input[type="checkbox"] {
+    height: 45%;
+    outline: 0 !important;
+}
+
+.formAdd .form-group i {
+    position: absolute;
+    color: #b00;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.formAdd button:first-of-type {
+    background-color: #1691ca;
+    border: 1px solid #1691ca;
+    margin-left: 40%;
+    width: 200px;
+    padding: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.formAdd button:first-of-type:hover,
+.formAdd button:first-of-type:focus,
+.formAdd .btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #2dade8;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.formAdd button a {
+    color: #fff;
+    text-decoration: none;
+}
+.formAdd button[id="next"] { padding: 0px;}
+.formAdd #next a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+/******************************************************
+                ADD USER      
+******************************************************/
+.hiddenCarPage { display: none; }
+
+.formAdd .selectOption { margin-top: 15px; }
+.formAdd .selectOption label { width: 100%; }
+
+.formAdd .selectOption input,
+.formAdd .selectOption select {
+    width: 86%;
+}
+
+.formAdd .optionalData {
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+.formAdd .optionalData label { width: 25%;}
+.formAdd .optionalData input { width: 70%;}
+.formAdd .picture { margin-left: 30%;}
+.formAdd .picture label {width: 22%;}
+.formAdd .picture input { outline: 0 !important}
+
+.formAdd .errorMsg { margin-right: 55px; }
+
+/******************************************************
+                ADD CAR     
+******************************************************/
+.formAdd .plateNum i {
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #0c5387;
+}
+
+.formAdd .twoCol label { width: 42%;}
+.formAdd .twoCol input { width: 55%;}
+.formAdd .twoCol2 label { width: 55%;}
+.formAdd .twoCol2 input { width: 40%;}
+.formAdd .twoColDiff label { width: 36%;}
+
+.formAdd .twoColDiff select,
+.formAdd .twoColDiff input { 
+    width: 60%;
+}
+
+.formAdd .threeCol label { width: 38%;}
+.formAdd .threeCol select {width: 58%;}
+.formAdd .threeCol input {width: 55%;}
+
+
+
+.formAdd .stolenType { margin-left: 25px;}
+.formAdd input[type="radio"]:focus{
+    outline: 0 !important;
+}
+/******************************************************
+                MEDIA QUERY     
+******************************************************/
+
+@media (max-width: 1199.98px) { 
+    .formAdd .optionalData label { width: 32%;}
+    .formAdd .optionalData input { width: 68%;}
+    .formAdd .twoCol2 label { width: 42%;}
+    .formAdd .twoCol2 input { width: 55%;}
+ }
+
+@media (max-width: 991.98px) { 
+    .formAdd .selectOption .birthdate,
+    .formAdd .optionalData label {
+        width: 45%;
+    }
+
+    .formAdd .selectOption select { width: 90%; }
+    .formAdd .selectOption input,
+    .formAdd .optionalData input {
+        width: 50%;
+    }
+
+    .formAdd .picture { margin-left: 7%;}
+    .formAdd .picture label {width: 20%;}
+    .formAdd button:first-of-type { margin-left: 35%; }
+
+    .formAdd .twoColDiff select,
+    .formAdd .twoColDiff input,
+    .formAdd .form-group select[id="trafficId"] {
+        width: 55%;
+    }
+    .formAdd .twoColDiff label { width: 42%;}
+ }
+
+ @media (max-width: 767.98px) {
+    .formAdd .form-group { 
+        margin-left: 15px;
+        margin-bottom: 25px;
+    }
+    .formAdd .form-group label,
+    .formAdd .form-group .birthdate {
+        width: 100%;
+        text-align: center;
+    }
+    .formAdd .form-group input,
+    .formAdd .form-group select,
+    .formAdd .form-group select[id="trafficId"] {
+        width: 90%;
+    }
+
+    .formAdd .picture { margin-left: 10%;}
+    .formAdd .picture label {width: 30%;}
+    .formAdd .picture input {width: 50%;}
+    .formAdd button:first-of-type { margin-left: 25%; }
+ }
+
+@media (max-width: 575.98px) {
+    .formAdd { margin-left: 30px; }
+}
+

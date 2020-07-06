@@ -1,0 +1,222 @@
+/******************************************************
+                    GLOBAL     
+******************************************************/
+.formDetails {
+    background-color: #fafafa;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #ccc;
+    width: 85%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.formDetails img {
+    width: 60%;
+    border: 2px solid #0072A7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee0c5;
+    background-color: #fff;
+}
+
+.formDetails h3 {
+    background-color: #0072A7;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.formDetails .form-group {
+    /* padding: 10px 0px 15px 50px; */
+    padding: 7px 0px 8px 30px;
+    margin: 0px;
+    border-bottom: 1px solid #0072A7;
+}
+
+.formDetails .form-group label,
+.infractions .form-group label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0e74bf;
+    padding: 0px;
+    /* background-color: #aaa; */
+}
+.formDetails .form-group > span,
+.formDetails .form-group .plaintext {
+    font-size: 18px;
+    color: #444;
+    /* background-color: #ccc; */
+}
+
+.formDetails .form-group a,
+.formDetails .form-group .links {
+    color: #007bff;
+    cursor: pointer;
+}
+.formDetails .form-group a:hover,
+.formDetails .form-group a:focus,
+.formDetails .form-group .links:hover,
+.formDetails .form-group .links:focus {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.back button {
+    background-color: #0d6e93;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    outline: 0;
+}
+.back button:hover, .back button:focus {
+    outline: 0;
+    background-color: #0e74bf;
+}
+
+.back h2 {
+    text-transform: uppercase;
+    color: #0d6e93;
+}
+.back .CarHeading {
+    text-align: center;
+}
+
+
+/******************************************************
+                CAR DETAILS         
+******************************************************/
+
+/* .carData  label { width: 18%; }
+.carData .label{ width: 33%}
+*/
+.carData .valid,
+.carData .invalid,
+.infractionData i {
+    color: #06bf06;
+    font-size: 30px;
+    cursor: text;
+}
+.carData .invalid,
+.infractionData .invalid { color: #ec0f0f;}
+
+.carDataPage {
+    height: 200px;
+    overflow: auto;
+} 
+.carDataPage h1,
+.trafficDataPage h1 {
+    margin: 45px auto;
+    color: #0c5387;
+}
+.carDataPage label,
+.trafficDataPage label {
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0e74bf;
+    float: left;
+}
+
+.carDataPage label a {
+    text-decoration: none;
+}
+
+.trafficDataPage span,
+.carDataPage span {
+    font-size: 18px;
+    color: #444;
+    float: right;
+}
+
+.trafficDataPage .form-group {
+    right: 0px;
+}
+
+
+/******************************************************
+                STOLEN CAR DETAILS         
+******************************************************/
+.stolenData h4, .stolenData h5, .carData h5 {
+    color: #f00;
+    text-align: center;
+    padding: 10px 0px 20px;
+    font-size: 26px;
+    letter-spacing: 1px;
+} 
+.stolenData h5 {padding: 10px 0px 0px;}
+.carData h5  {padding: 10px 0px 10px;}
+/******************************************************
+                    USER DETAILS     
+******************************************************/
+.userData .edit,
+.userData i,
+.carData i {
+    color: #0bbc42;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: right;
+}
+.userData i,
+.carData i {
+    color: #0072A7;
+}
+
+.userData .changePass {
+    padding-left: 38%;
+}
+.userData .changePass > label {
+    cursor: pointer;
+    color: #0bbc42;
+}
+.userData .plaintext {
+    display: inline-block;
+}
+
+/******************************************************
+                USER DETAILS       
+                INFRACTION DETAILS  
+******************************************************/
+.trafficData label {
+    width: 30%;
+    margin-right: 8%;
+}
+
+.trafficData label {
+    margin-top: 4%;
+}
+
+.infractionData .isPaid {display: inline;}
+.infractionData .goPay {
+    font-size: 22px;
+}
+.infractionData .isPaid a { color: #ec0f0f;}
+
+/******************************************************
+                    MEDIA QUERY    
+******************************************************/
+@media (max-width: 767.98px) { 
+    .userData .form-group {
+        text-align: center;
+    }
+    .userData .changePass {
+        padding-left: 0px;
+    }
+
+    .infractionData label,
+    .infractionData span
+    /* .stolenData label,
+    .stolenData span { */
+    {text-align: center;
+    }
+
+    .stolenData .form-group {padding: 10px 0px 15px 30px;}
+    .stolenData h4 {font-size: 20px;}
+    
+    .back {
+        margin-left: 10px;
+    }
+}
+
